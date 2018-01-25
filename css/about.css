@@ -1,0 +1,34 @@
+/*ABOUT US PAGE*/
+.about_us {
+	margin-top: 70px;
+}
+.about_us h1 {
+	font-size: 54px;
+	font-family: 'poppins', sans-serif;
+}
+.about_us_container {
+	border-top: 2px solid #000;
+	margin-top: 20px;
+	padding-top: 10px;
+}
+.bookshelf {
+    padding-top: 60px;
+    text-align: center;
+}
+.leadership h3 {
+	padding-top: 15px;
+}
+.leadership h4 {
+	line-height: 1.5;
+}
+.muted_text {
+	color: #6f7680 !important;
+}
+.muted_text a {
+	color: #6f7680;
+	text-decoration: underline;
+}
+.muted_text a:hover {
+	color: #ed2f59;
+	text-decoration: none;
+}

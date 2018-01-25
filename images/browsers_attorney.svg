@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="580px" height="270px" viewBox="0 0 580 270" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>browsers_attorney</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="274" height="203"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="274" height="203" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="45" y="92" width="184" height="17"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="184" height="17" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="45" y="162" width="184" height="17"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="184" height="17" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="306" y="67" width="274" height="203"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="274" height="203" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+    </defs>
+    <g id="Marketing-Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Compatible-with-Attorney" transform="translate(-125.000000, -748.000000)">
+            <g id="browsers_attorney" transform="translate(125.000000, 748.000000)">
+                <polyline id="Rectangle-9-Copy-2" stroke="#008FD5" points="364.828355 120 355.354133 129.25386 350 124.024259"></polyline>
+                <polyline id="Rectangle-9-Copy-4" stroke="#008FD5" points="364.828355 218 355.354133 227.25386 350 222.024259"></polyline>
+                <polyline id="Rectangle-9-Copy-3" stroke="#008FD5" points="364.828355 178 355.354133 187.25386 350 182.024259"></polyline>
+                <use id="Rectangle-43" stroke="#22262E" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                <path d="M0.5,27.5 L273.5,27.5" id="Line" stroke="#22262E" stroke-linecap="square"></path>
+                <circle id="Oval-23" stroke="#22262E" cx="14" cy="14" r="3"></circle>
+                <circle id="Oval-23-Copy" stroke="#22262E" cx="26" cy="14" r="3"></circle>
+                <circle id="Oval-23-Copy-2" stroke="#22262E" cx="38" cy="14" r="3"></circle>
+                <path d="M45.5,77.5 L159.609596,77.5" id="Line" stroke="#C6C9CC" stroke-linecap="square"></path>
+                <path d="M45.5,147.5 L159.609596,147.5" id="Line-Copy-14" stroke="#C6C9CC" stroke-linecap="square"></path>
+                <path d="M45.5,64.5 L227.500105,64.5" id="Line-Copy" stroke="#C6C9CC" stroke-linecap="square"></path>
+                <path d="M45.5,134.5 L227.500105,134.5" id="Line-Copy-15" stroke="#C6C9CC" stroke-linecap="square"></path>
+                <path d="M45.5,50.5 L227.500105,50.5" id="Line-Copy-2" stroke="#C6C9CC" stroke-linecap="square"></path>
+                <use id="Rectangle-45" stroke="#008FD5" mask="url(#mask-4)" stroke-width="2" xlink:href="#path-3"></use>
+                <use id="Rectangle-45-Copy" stroke="#008FD5" mask="url(#mask-6)" stroke-width="2" xlink:href="#path-5"></use>
+                <use id="Rectangle-43-Copy" stroke="#22262E" mask="url(#mask-8)" stroke-width="2" xlink:href="#path-7"></use>
+                <path d="M306.5,94.5 L579.5,94.5" id="Line-Copy-16" stroke="#22262E" stroke-linecap="square"></path>
+                <circle id="Oval-23-Copy-3" stroke="#22262E" cx="320" cy="81" r="3"></circle>
+                <circle id="Oval-23-Copy-4" stroke="#22262E" cx="332" cy="81" r="3"></circle>
+                <circle id="Oval-23-Copy-5" stroke="#22262E" cx="344" cy="81" r="3"></circle>
+                <path d="M378.426288,151.5 L475.713439,151.5" id="Line-Copy-17" stroke="#008FD5" stroke-linecap="square"></path>
+                <path d="M378.426288,138.5 L533.595286,138.5" id="Line-Copy-19" stroke="#008FD5" stroke-linecap="square"></path>
+                <path d="M378.426288,236.5 L505.535408,236.5" id="Line-Copy-20" stroke="#008FD5" stroke-linecap="square"></path>
+                <path d="M378.426288,124.5 L533.595286,124.5" id="Line-Copy-21" stroke="#008FD5" stroke-linecap="square"></path>
+                <path d="M378.426288,222.5 L533.595286,222.5" id="Line-Copy-23" stroke="#008FD5" stroke-linecap="square"></path>
+                <path d="M378.426288,183.5 L515.503648,183.5" id="Line-Copy-22" stroke="#008FD5" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
