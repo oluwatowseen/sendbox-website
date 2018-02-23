@@ -31,22 +31,21 @@
                         <li class="dropdown dropdown-large">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="fa fa-angle-down dropSpan"></span></a>
                             <ul class="row dropdown-menu dropdown-menu-large">
-                                <li class="col-md-2 col-xs-6"><a href="formation.html"><img src="images/formation-drop.svg">
-                                    <hr>Formation</a></li>
-                                <li class="col-md-2 col-xs-6"><a href="fundraising.html"><img src="images/fundraising-drop.svg">
-                                    <hr>Fundraising</a></li>
-                                <li class="col-md-2 col-xs-6"><a href="hiring.html"><img src="images/hiring-drop.svg">
-                                    <hr>Hiring</a></li>
-                                <li class="col-md-2 col-xs-6"><a href="commercial.html"><img src="images/commercial-drop.svg">
-                                    <hr>Commercial</a></li>
-                                <li class="col-md-2 col-xs-6"><a href="maintenance.html"><img src="images/maintenance-drop.svg">
-                                    <hr>Maintenance</a></li>
+                                <li class="col-md-3 col-xs-12 margin-bottom_small"><a href="small-business.html"><img src="images/formation-drop.svg">
+                                    <hr>Individual &amp; Small Businesses</a></li>
+                                <li class="col-md-3 col-xs-12 margin-bottom_small"><a href="large-enterprise.html"><img src="images/fundraising-drop.svg">
+                                    <hr>Large Enterprises</a></li>
+                                <li class="col-md-3 col-xs-12 margin-bottom_small"><a href="developers.html"><img src="images/hiring-drop.svg">
+                                    <hr>Developers</a></li>
+                                <li class="col-md-3 col-xs-12"><a href="courier-partners.html"><img src="images/commercial-drop.svg">
+                                    <hr>Courier Partners</a></li>
+                                <!-- <li class="col-md-2 col-xs-6"><a href="maintenance.html"><img src="images/maintenance-drop.svg">
+                                    <hr>Maintenance</a></li> -->
                             </ul>
                         </li>
-                        <li><a href="pricing.html" class="active">Pricing</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
                         <li><a href="features.html">Features</a></li>
-                        <li><a href="partners.html">Our Partners</a></li>
-                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="sendbox_documentation/sendbox-docs.html">Documentation</a></li>
                         <li class="nav_divider hidden-xs"></li>
                         <li><a href="signin.html">Sign In</a></li>
                         <li class="signup"><a href="create-account.html" class="signup_link">Create Account</a></li>
@@ -77,36 +76,82 @@
                                 </div>
                                 <div class="col-md-7 estimate_container clearfix">
                                     <h2 class="h2 centered rate_container_header margin-bottom_large">Shipping rate calculator</h2>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="ship_from">FROM:</label>
-                                            <select class="form-control select_form" id="ship_from">
-                                                <option value="" selected>Lagos, Nigeria</option>
-                                                <option>Abuja, Nigeria</option>
-                                                <option></option>
-                                                <option></option>
-                                            </select>
-                                        </div>
+                                    <div class="toggle-button_container centered">
+                                        <ul class="nav toggle_button">
+                                            <li><a data-toggle="pill" href="#domestic" class="pill_active toggle_dom" onclick="activation()" id="checker1"> Domestic </a></li>
+                                            <li><a data-toggle="pill" href="#international" class="toggle_intl" onclick="intlActivation()" id="checker2">International</a></li>
+                                        </ul>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group ">
-                                            <label for="ship_to">TO:</label>
-                                            <select class="form-control select_form" id="ship_to">
-                                                <option value="" selected>Abuja, Nigeria</option>
-                                                <option>Lagos, Nigeria</option>
-                                                <option></option>
-                                                <option></option>
-                                            </select>
+                                    <div class="tab-content">
+                                        <!-- Domestic shipping rate -->
+                                        <div class="active tab-pane fade in" id="domestic">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="ship_from">FROM:</label>
+                                                    <select class="form-control select_form" id="ship_from">
+                                                        <option value="" selected>Lagos, Nigeria</option>
+                                                        <option>Abuja, Nigeria</option>
+                                                        <option></option>
+                                                        <option></option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group ">
+                                                    <label for="ship_to">TO:</label>
+                                                    <select class="form-control select_form" id="ship_to">
+                                                        <option value="" selected>Abuja, Nigeria</option>
+                                                        <option>Lagos, Nigeria</option>
+                                                        <option></option>
+                                                        <option></option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 slide_container">
+                                                <label for="ship_range">SHIPMENT WEIGHT:</label>
+                                                <input type="range" min="1" max="100" value="25" class="slider" id="ship_range">
+                                                <div class="value_cost margin-bottom_small">
+                                                    <span>
+                                                        <span><b>Value: </b><span id="ship_value"></span>Kg</span>
+                                                        <span class="pull-right"><b>Cost:</b> &#8358; <span id="cost">25,000</span></span>
+                                                    </span>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-xs-12 slide_container">
-                                        <label for="ship_range">SHIPMENT WEIGHT:</label>
-                                        <input type="range" min="1" max="100" value="25" class="slider" id="ship_range">
-                                        <div class="value_cost margin-bottom_small">
-                                            <span>
-                                                <span><b>Value: </b><span id="Ship_value"></span>Kg</span>
-                                                <span class="pull-right"><b>Cost:</b> &#8358; <span id="cost">25,000</span></span>
-                                            </span>
+                                        <!-- International shipping rate -->
+                                        <div class="tab-pane fade" id="international">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="ship_from">FROM:</label>
+                                                    <select class="form-control select_form" id="ship_from">
+                                                        <option value="" selected>Lagos, Nigeria</option>
+                                                        <option>Abuja, Nigeria</option>
+                                                        <option></option>
+                                                        <option></option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group ">
+                                                    <label for="ship_to">TO:</label>
+                                                    <select class="form-control select_form" id="ship_to">
+                                                        <option value="" selected>Abuja, Nigeria</option>
+                                                        <option>Lagos, Nigeria</option>
+                                                        <option></option>
+                                                        <option></option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 slide_container">
+                                                <label for="ship_range">SHIPMENT WEIGHT:</label>
+                                                <input type="range" min="1" max="100" value="25" class="slider" id="intlShip_range">
+                                                <div class="value_cost margin-bottom_small">
+                                                    <span>
+                                                        <span><b>Value: </b><span id="intlShip_value"></span>Kg</span>
+                                                        <span class="pull-right"><b>Cost:</b> &#8358; <span id="cost">25,000</span></span>
+                                                    </span>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="intro_signup centered">
@@ -121,25 +166,18 @@
                 
 
 
-
-
-
-
-
-
-
                 <div class="sendbox_sections contact_us">
                     <hr class="line margin-bottom_small">
-                    <h2 class="h2">Use Clerky to get legal paperwork done with confidence, so you can <br class="hidden-xs hidden-sm"> get back to building your company.</h2>
+                    <h2 class="h2">Use Sendbox to easily schedule and send packages to multiple cities<br class="hidden-xs hidden-sm"> across the world at cheaper delivery rates, irrespective of volume.</h2>
                     <div class="row">
                         <div class="col-md-4 form-group">
-                            <input type="email" name="email" placeholder="Email Address" class="form-control contact_form">
+                            <input type="email" name="email" placeholder="Email Address" class="form-control contact_form" required>
                         </div>
                         <div class="col-md-4 form-group">
-                            <input type="password" name="password" placeholder="Password" class="form-control contact_form" title="Password must be at least 6 characters.">
+                            <input type="password" name="password" placeholder="Password" class="form-control contact_form" title="Password must be at least 6 characters." required>
                         </div>
                         <div class="col-md-4">
-                            <button class="btn create_account_button">Create Account</button>
+                            <input class="btn create_account_button" type="submit" value="create Account">
                         </div>
                     </div>
                 </div>
@@ -150,53 +188,39 @@
                             <div class="col-md-2">
                                 <ul>
                                     <li><b>Products</b></li>
-                                    <li><a href="#"> Formation</a></li>
-                                    <li><a href="#"> Fundraising</a></li>
-                                    <li><a href="#"> Hiring</a></li>
-                                    <li><a href="#"> Commercial</a></li>
-                                    <li><a href="#"> Maintenance</a></li>
+                                    <li><a href="small-business.html"> Individual Businesses</a></li>
+                                    <li><a href="small-business.html"> Small Businesses</a></li>
+                                    <li><a href="large-enterprise.html"> Large Enterprise</a></li>
+                                    <li><a href="#"> Developers</a></li>
+                                    <li><a href="#"> Courier Partners</a></li>
                                 </ul>
                             </div>
                             <div class="col-md-2">
                                 <ul>
                                     <li><b>Explore</b></li>
-                                    <li><a href="#"> Pricing</a></li>
-                                    <li><a href="#"> Features</a></li>
-                                    <li><a href="#"> Due Diligence</a></li>
-                                    <li><a href="#"> Attorney Compatible</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-md-2">
-                                <ul>
-                                    <li><b>Resources</b></li>
-                                    <li><a href="#"> Handbook</a></li>
-                                    <li><a href="#"> Support</a></li>
-                                    <li><a href="#"> Status</a></li>
-                                    <li><a href="#"> For Attorneys</a></li>
+                                    <li><a href="pricing.html"> Pricing</a></li>
+                                    <li><a href="features.html"> Features</a></li>
+                                    <li><a href="sendbox_documentation/sendbox-docs.html"> Docs</a></li>
                                 </ul>
                             </div>
                             <div class="col-md-2">
                                 <ul>
                                     <li><b>Company</b></li>
-                                    <li><a href="#"> About</a></li>
+                                    <li><a href="#"> About Us</a></li>
                                     <li><a href="#"> Blog</a></li>
                                     <li><a href="#"> Careers</a></li>
-                                    <li><a href="#"> Press</a></li>
                                 </ul>
-                            </div>
-                            <div class="col-md-4 hidden-xs hidden-sm">
-                                <p class="pull-right">Made with care in Silicon Valley.</p>
                             </div>
                         </div>
                     </div>
                     <div class="main_footer">
-                        <p class="footer_text margin-bottom_small">Clerky, Inc. is not an attorney or a law firm, and can only provide self-help service at your specific direction. Clerky, Inc. is a bonded legal document assistant registered in San mateo County, California (#2016-1, expiring February 28, 20180. Our business address and phone number are 340 S. Lemon Ave. #1881, Walnut, ca 91789 and 650-440-5449.</p>
+                        <!-- <p class="footer_text margin-bottom_small">Clerky, Inc. is not an attorney or a law firm, and can only provide self-help service at your specific direction. Clerky, Inc. is a bonded legal document assistant registered in San mateo County, California (#2016-1, expiring February 28, 20180. Our business address and phone number are 340 S. Lemon Ave. #1881, Walnut, ca 91789 and 650-440-5449.</p> -->
                         <ul>
                             <li><a href="#">Terms</a></li>
                             <li><a href="#">Privacy</a></li>
                             <li>Copyright &copy;
                                 <script>document.write(new Date().getFullYear())</script>
-                                 Sendbox, Inc.
+                                 Sendbox.ng.
                             </li>
                         </ul>
                     </div>
@@ -215,5 +239,38 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        /*$(document).ready(function() {
+            $(".toggle_dom").click(function() {
+                var toggler = $(".toggle_dom");
+                var current = $
+
+                if (".toggle_dom !== toggler") {
+                    $(".toggle_dom").add(".pill_active")
+                } else {
+                    console.log("true")
+                }
+            });
+        });*/
+
+        function activation() {
+            /*var toggler = document.getElementById("checker1")
+            var insertClass = document.getElementsByClassName("pill_active")
+            if (toggler) {} else {}*/
+            if ( document.getElementById("checker2").classList.contains('pill_active') ) {
+                document.getElementById("checker2").classList.remove('pill_active'),
+                document.getElementById("checker1").classList.add('pill_active');
+            }
+        };
+        function intlActivation() {
+            /*var toggler = document.getElementById("checker1")
+            var insertClass = document.getElementsByClassName("pill_active")
+            if (toggler) {} else {}*/
+            if ( document.getElementById("checker1").classList.contains('pill_active') ) {
+                document.getElementById("checker1").classList.remove('pill_active'),
+                document.getElementById("checker2").classList.add('pill_active');
+            }
+        };
+    </script>
 </body>
 </html>

@@ -24,6 +24,8 @@
 	margin-top: 20px;
 	margin-bottom: 50px;
 }
+
+/*RATE CALCULATOR*/
 .estimate_container {
 	border: 1px solid #eee;
     padding: 30px 35px;
@@ -39,22 +41,43 @@
 	font-weight: 600;
 	
 }
-/*.complete {
-    padding-top: 30px;
-    padding-bottom: 100px;
-}
-.complete_container {
-    border: 1px solid #e9eaeb;
-    padding: 50px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}*/
 .pricing .select_form {
     border-radius: 0px;
     height: 40px;
     font-size: 15px;
 }
+.estimate_container .toggle-button_container {
+	margin-bottom: 30px;
+}
+.estimate_container .toggle-button_container .toggle_button {
 
+}
+.estimate_container .toggle-button_container .toggle_button li {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-right: none;
+    margin-right: -5px;
+}
+.estimate_container .toggle-button_container .toggle_button li:last-child {
+    border-right: 1px solid #ccc;
+    border-left: none;
+}
+
+.estimate_container .toggle-button_container .toggle_button li a {
+    color: #333;
+    background-color: #fff;
+}
+.estimate_container .toggle-button_container .toggle_button li a:hover{
+    background-color: #ed2f59;
+    color: #fff;
+}
+.pill_active {
+    background-color: #ed2f59 !important;
+    color: #fff !important;
+}
+#international label {
+	color: #ed2f59;
+}
 /*SLIDER*/
 .slide_container {
     width: 100%;
@@ -101,30 +124,6 @@
 .estimate_cost p {
 	font-size: 25px;
 }
-
-/*.pricing_button {
-	margin: 25px 0;
-}*/
-/*.get_estimate {
-    padding: 12px 30px;
-    border-radius: 0px;
-    background-color: #ed2f59;
-    color: #fff;
-    border: none;
-    margin-bottom: 15px;
-    width: 30%;
-    font-size: 15px;
-    font-family: 'poppins', sans-serif;
-}
-.get_estimate:hover,
-.get_estimate:active,
-.get_estimate:focus,
-.get_estimate:visited {
-    background-color: #c72549;
-    text-decoration: none;
-    color: #fff;
-}
-*/
 
 
 

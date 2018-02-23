@@ -46,7 +46,11 @@ p {
     .sendbox_brand img {
         margin-top: -4px;
     }
+    .sendbox_brand {
+        margin-left: 0px !important;
+    }
 }
+
 /*collapsed nav button*/
 .sendbox_nav .navbar-toggle .icon-bar {
 	background-color: #ed2f59;
@@ -90,11 +94,6 @@ p {
 	font-family: 'poppins', sans-serif;
     line-height: 1.5;
 }
-/*@media (max-width: 768px){
-    .sendbox_nav .sendbox_links li a  {
-    	width: 50%;
-    }
-}*/
 .sendbox_nav .sendbox_links li a:hover {
 	color: #ed2f59;
 	opacity: .7;
@@ -131,7 +130,8 @@ p {
     position: static !important;
 }
 .dropdown-menu-large {
-    width: 100%;
+    width: 80%;
+    margin-right: 55px;
 }
 
 .dropdown-menu >li>a {
@@ -161,7 +161,7 @@ p {
         margin-right: 7px;
         margin-left: 15px;
         margin-bottom: 15px;
-        margin-top: 15px;
+        margin-top: 0px;
     }
 }
 .signup_link {
@@ -249,6 +249,15 @@ p {
     background-color: #ed2f59;
     font-size: 17px;
 }
+.home-page_signup a:last-child {
+    margin-left: 20px;
+}
+@media (max-width: 768px) {
+    .home-page_signup a {
+        padding: 12px 25px;
+        font-size: 15px;
+    }
+}
 .intro_signup a:hover {
     color: #fff;
     text-decoration: none;
@@ -258,6 +267,7 @@ p {
 
 .start_up img {
     box-shadow: 0 5px 10px #c6c9cc;
+    width: 100%;
 }
 @media (min-width: 992px) { 
     .start_up img {
@@ -310,7 +320,7 @@ p {
 }
 /*TRACKING & REPORTS*/
 .tracking_reports img {
-    height: 80px;
+    height: 50px;
     margin-left: -12px;
 }
 @media (max-width: 768px){
@@ -550,6 +560,11 @@ p {
 }
 .margin-bottom_xlarge {
     margin-bottom: 200px !important;
+}
+@media (max-width: 768px){
+    .margin-bottom_xlarge {
+        margin-bottom: 100px !important;
+    }
 }
 .right-padding_none {
     padding-right: 0px;
