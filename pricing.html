@@ -45,7 +45,7 @@
                         </li>
                         <li><a href="pricing.html">Pricing</a></li>
                         <li><a href="features.html">Features</a></li>
-                        <li><a href="documentation/sendbox-docs.html">Documentation</a></li>
+                        <li><a href="sendbox_documentation/sendbox-docs.html">Documentation</a></li>
                         <li class="nav_divider hidden-xs"></li>
                         <li><a href="signin.html">Sign In</a></li>
                         <li class="signup"><a href="create-account.html" class="signup_link">Create Account</a></li>
@@ -200,7 +200,7 @@
                                     <li><b>Explore</b></li>
                                     <li><a href="pricing.html"> Pricing</a></li>
                                     <li><a href="features.html"> Features</a></li>
-                                    <li><a href="documentation/sendbox-docs.html"> Docs</a></li>
+                                    <li><a href="sendbox_documentation/sendbox-docs.html"> Docs</a></li>
                                 </ul>
                             </div>
                             <div class="col-md-2">
@@ -241,13 +241,33 @@
     <script src="js/main.js"></script>
     <script>
 
+        /*$(document).ready(function() {
+            $(".toggle_dom").click(function() {
+                var toggler = $(".toggle_dom");
+                var current = $
+
+                if (".toggle_dom !== toggler") {
+                    $(".toggle_dom").add(".pill_active")
+                } else {
+                    console.log("true")
+                }
+            });
+        });*/
+
         function activation() {
+            /*var toggler = document.getElementById("checker1")
+            var insertClass = document.getElementsByClassName("pill_active")
+            if (toggler) {} else {}*/
             if ( document.getElementById("checker2").classList.contains('pill_active') ) {
                 document.getElementById("checker2").classList.remove('pill_active'),
                 document.getElementById("checker1").classList.add('pill_active');
             }
         };
         function intlActivation() {
+
+            /*var toggler = document.getElementById("checker1")
+            var insertClass = document.getElementsByClassName("pill_active")
+            if (toggler) {} else {}*/
             if ( document.getElementById("checker1").classList.contains('pill_active') ) {
                 document.getElementById("checker1").classList.remove('pill_active'),
                 document.getElementById("checker2").classList.add('pill_active');
