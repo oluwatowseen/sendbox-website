@@ -1,0 +1,31 @@
+<svg viewBox="0 0 45 55" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <path id="a" d="M6 6.0025h38.0666667v48H6z"/>
+    <mask id="c" x="0" y="0" width="38.0666667" height="48" fill="#fff">
+      <use xlink:href="#a"/>
+    </mask>
+    <path id="b" d="M10.0187988.0025h28.0478679v48H0V10.0151953z"/>
+    <mask id="d" x="0" y="0" width="38.0666667" height="48" fill="#fff">
+      <use xlink:href="#b"/>
+    </mask>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(0 .516)" stroke="#22262E">
+      <use mask="url(#c)" stroke-width="2" xlink:href="#a"/>
+      <use mask="url(#d)" stroke-width="2" fill="#FFF" xlink:href="#b"/>
+      <path d="M10.5 1.5025v8M1.5 10.5025h9" stroke-linecap="square"/>
+    </g>
+    <g transform="translate(15.048 23.5)" stroke="#008FD5">
+      <ellipse cx="3.79293796" cy="2.07832738" rx="2.0313064" ry="2.07832738"/>
+      <path d="M7.54485234 7.97022448c0-2.13168153-1.68897273-3.85975085-3.77242617-3.85975085C1.68897273 4.11047363 0 5.83854295 0 7.97022448"/>
+    </g>
+    <g transform="translate(25.84 23.5)" stroke="#008FD5">
+      <ellipse cx="3.79293796" cy="2.07832738" rx="2.0313064" ry="2.07832738"/>
+      <path d="M7.54485234 7.97022448c0-2.13168153-1.68897273-3.85975085-3.77242617-3.85975085C1.68897273 4.11047363 0 5.83854295 0 7.97022448"/>
+    </g>
+    <g transform="translate(4.256 23.5)" stroke="#008FD5">
+      <ellipse cx="3.79293796" cy="2.07832738" rx="2.0313064" ry="2.07832738"/>
+      <path d="M7.54485234 7.97022448c0-2.13168153-1.68897273-3.85975085-3.77242617-3.85975085C1.68897273 4.11047363 0 5.83854295 0 7.97022448"/>
+    </g>
+  </g>
+</svg>
