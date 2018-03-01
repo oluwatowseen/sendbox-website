@@ -2,18 +2,21 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 body {
-  font-family: 'Karla', sans-serif;
+  /*font-family: 'Karla', sans-serif;*/
+  font-family: 'Hind', sans-serif;
   color: #333;
   padding-top: 90px;
   transition: all 3s;
   font-size: 15px;
 }
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'poppins', sans-serif;
+	/*font-family: 'poppins', sans-serif;*/
+    font-family: 'Hind', sans-serif;
     color: #000;
 }
 p {
-    font-family: 'Karla', sans-serif;
+    /*font-family: 'Karla', sans-serif;*/
+    font-family: 'Hind', sans-serif;
     font-size: 16px;
     line-height: 1.59;
 }
@@ -26,7 +29,8 @@ p {
 	background-color: #fff;
 	color: #ed2f59;
 	font-size: 13px;
-	font-family: 'poppins', sans-serif;
+	/*font-family: 'poppins', sans-serif;*/
+    font-family: 'Hind', sans-serif;
 	height: 60px;
 	padding-top: 5px;
     padding-bottom: 5px;
@@ -91,7 +95,8 @@ p {
 .sendbox_nav .sendbox_links li a {
 	color: #ed2f59;
 	font-size: 12px;
-	font-family: 'poppins', sans-serif;
+	/*font-family: 'poppins', sans-serif;*/
+    font-family: 'Hind', sans-serif;
     line-height: 1.5;
 }
 .sendbox_nav .sendbox_links li a:hover {
@@ -227,14 +232,16 @@ p {
 }
 .sendbox_intro h1 {
     font-size: 37px;
-    font-family: 'poppins', sans-serif; 
+    /*font-family: 'poppins', sans-serif;*/
+    font-family: 'Hind', sans-serif; 
     margin-top: 30px;
     margin-bottom: 30px;
     color: #333;
     font-weight: 600;
 }
 .sendbox_intro h4 {
-    font-family: 'poppins', sans-serif;
+   /* font-family: 'poppins', sans-serif;*/
+    font-family: 'Hind', sans-serif;
     line-height: 1.5;
     font-weight: 500;
     color: #333;
@@ -383,7 +390,8 @@ p {
     padding: 14px 20px;
     border-radius: 0px;
     background-color: #ed2f59;
-    font-family: 'poppins', sans-serif;
+    /*font-family: 'poppins', sans-serif;*/
+    font-family: 'Hind', sans-serif;
     border: none;
     margin: 30px 0;
     color: #fff;
@@ -459,7 +467,8 @@ p {
     margin-bottom: 15px;
     width: 100%;
     font-size: 15px;
-    font-family: 'poppins', sans-serif;
+    /*font-family: 'poppins', sans-serif;*/
+    font-family: 'Hind', sans-serif;
 }
 .sign_in_button:hover,
 .sign_in_button:active,
@@ -526,6 +535,10 @@ p {
     margin-top: 20px;
     margin-bottom: 20px;
     color: #000;
+    font-weight: bold;
+}
+.h3 {
+    font-weight: normal;
 }
 .centered {
     text-align: center;
