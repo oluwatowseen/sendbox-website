@@ -3,7 +3,6 @@
 }
 .pricing h1 {
 	font-size: 54px;
-	font-family: 'poppins', sans-serif;
 }
 .pricing_container {
 	border-top: 2px solid #000;
@@ -54,22 +53,34 @@
 }
 .estimate_container .toggle-button_container .toggle_button li {
     display: inline-block;
-    border: 1px solid #ccc;
-    border-right: none;
-    margin-right: -5px;
+    margin-right: -4px;
 }
-.estimate_container .toggle-button_container .toggle_button li:last-child {
-    border-right: 1px solid #ccc;
-    border-left: none;
-}
-
 .estimate_container .toggle-button_container .toggle_button li a {
+    border: 1px solid #ed2f59;
+    border-right: none;
     color: #333;
     background-color: #fff;
+    border-top-left-radius: 33px;
+    border-bottom-left-radius: 33px;
+    color: #ed2f59;
+    transition: .2s;
+    font-size: 11px;
+    font-family: 'poppins', sans-serif !important;
 }
-.estimate_container .toggle-button_container .toggle_button li a:hover{
-    background-color: #ed2f59;
-    color: #fff;
+.estimate_container .toggle-button_container .toggle_button li:last-child a {
+    border-right: 1px solid #ed2f59;
+    border-left-width: 0;
+    border-top-right-radius: 33px;
+    border-bottom-right-radius: 33px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.estimate_container .toggle-button_container .toggle_button li a:hover,
+.estimate_container .toggle-button_container .toggle_button li a:focus{
+    background-color: rgba(0,0,0,0.03);
+    color: #ed2f59;
+    outline: none;
+    text-decoration: none;
 }
 .pill_active {
     background-color: #ed2f59 !important;
