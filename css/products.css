@@ -79,22 +79,6 @@ ul.listed li:before {
     position: relative;
     top: 3px;
 }
-<<<<<<< HEAD
-=======
-.quote_formation h1 {
-    line-height: 1.3;
-}
-.quote_formation img {
-    height: 54px;
-    margin-right: 15px;
-}
-.quote_formation p {
-    color: #6f7680;
-    margin-bottom: 20px;
-    letter-spacing: 0.04em;
-    font-size: 15px;
-}
->>>>>>> 086ff98dbbb08cec5b3feb7f495cf83e94304dca
 .safe h4 {
     font-size: 19px;
     margin-top: 30px;
