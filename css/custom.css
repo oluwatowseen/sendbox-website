@@ -135,6 +135,10 @@ p,a,li,button {
     width: 80%;
     margin-right: 55px;
 }
+.dropdown-menu-large img {
+  width: 44px;
+  margin-bottom: -15px;
+}
 
 .dropdown-menu >li>a {
     padding: 40px 15px;
@@ -156,7 +160,7 @@ p,a,li,button {
 
 /*create account button*/
 .signup {
-	
+
 }
 @media (max-width: 768px){
     .signup {
@@ -228,7 +232,7 @@ p,a,li,button {
     padding-top: 10px;
 }
 .sendbox_intro h1 {
-    font-size: 37px; 
+    font-size: 37px;
     margin-top: 30px;
     margin-bottom: 30px;
     color: #333;
@@ -269,7 +273,7 @@ p,a,li,button {
     box-shadow: 0 5px 10px #c6c9cc;
     width: 100%;
 }
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
     .start_up img {
         margin-top: -105px;
     }
@@ -360,7 +364,7 @@ p,a,li,button {
     color: #fff;
     text-decoration: none;
     background-color: #c72549;
-    
+
 }
 
 /*partner section*/
@@ -591,4 +595,3 @@ p,a,li,button {
 .theme_color {
     color: #ed2f59;
 }
-
