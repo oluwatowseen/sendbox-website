@@ -5,7 +5,7 @@ body {
   /*font-family: 'Karla', sans-serif;*/
   font-family: 'Hind', sans-serif;
   color: #333;
-  padding-top: 90px;
+  padding-top: 65px;
   transition: all 3s;
   font-size: 15px;
 }
@@ -201,12 +201,12 @@ p,a,li,button {
 
 /*banner*/
 .home_banner {
-    background-image: url(../images/home_ban1.png);
+    background-image: url(../images/sendbox-images/Header.png);
     background-repeat: no-repeat;
     background-position: right;
-    min-height: 305px;
+    min-height: 350px;
     margin-bottom: 10px;
-    background-size: contain;
+    background-size: cover;
     background-color: #fff;
 }
 @media (max-width: 1200px){
@@ -214,10 +214,6 @@ p,a,li,button {
         background-image: none;
         background-color: #fff;
     }
-}
-.imageLink {
-    min-height: 215px;
-    cursor: default;
 }
 /*home intro*/
 .sendbox_sections {
