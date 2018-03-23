@@ -6,13 +6,13 @@ body {
   font-family: 'Hind', sans-serif;
   color: #333;
   padding-top: 65px;
-  transition: all 3s;
   font-size: 15px;
 }
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'poppins', sans-serif !important;
     /*font-family: 'Hind', sans-serif;*/
     color: #000;
+    line-height: 
 }
 p,a,li,button {
     /*font-family: 'Karla', sans-serif;*/
@@ -32,12 +32,11 @@ p,a,li,button {
 	height: 60px;
 	padding-top: 5px;
     padding-bottom: 5px;
-    border-color: #ed2f5947;
+    /*border-color: #ed2f5947;*/
 }
 /*brand logo*/
 .sendbox_brand {
-	width: 180px;
-	height: auto;
+	width: 220px;
 }
 .sendbox_brand img {
 	width: 100%;
@@ -95,6 +94,7 @@ p,a,li,button {
 	font-size: 12px;
     line-height: 1.5;
     font-family: 'poppins', sans-serif !important;
+    text-transform: uppercase;
 }
 .sendbox_nav .sendbox_links li a:hover {
 	color: #ed2f59;
@@ -177,11 +177,14 @@ p,a,li,button {
     background-color: #ed2f59;
     text-align: center;
     margin-top: 4px;
+    border-radius: 2px;
+    text-transform: uppercase;
 }
 .signup_link:hover {
     background-color: #c72549 !important;
     color: #fff;
     opacity: 1 !important;
+    text-decoration: none;
 }
 /* end of navigation*/
 
@@ -239,15 +242,12 @@ p,a,li,button {
     font-weight: 500;
     color: #333;
 }
-.intro_signup {
-    margin-top: 40px;
-    margin-bottom: 40px;
+.home-page_signup {
+    margin-top: 50px;
 }
-.intro_signup a {
-    color: #fff;
-    padding: 14px 35px;
-    background-color: #ed2f59;
-    font-size: 17px;
+.home-page_signup a {
+    padding: 12px 30px !important;
+    font-size: 13px;
 }
 .home-page_signup a:last-child {
     margin-left: 20px;
@@ -255,13 +255,7 @@ p,a,li,button {
 @media (max-width: 768px) {
     .home-page_signup a {
         padding: 12px 25px;
-        font-size: 15px;
     }
-}
-.intro_signup a:hover {
-    color: #fff;
-    text-decoration: none;
-    background-color: #c72549;
 }
 /*start up section*/
 
@@ -419,8 +413,7 @@ p,a,li,button {
 .main_footer {
     font-size: 12px;
     color: #6f7680;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    text-align: right;
 }
 .footer_text {
     font-size: 13px;

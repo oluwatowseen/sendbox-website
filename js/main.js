@@ -16,3 +16,17 @@ intlOutput.innerHTML = intlSlider.value;
 intlSlider.oninput = function() {
   intlOutput.innerHTML = this.value;
 };
+
+
+function activation() {
+    if ( document.getElementById("checker2").classList.contains('pill_active') ) {
+        document.getElementById("checker2").classList.remove('pill_active'),
+        document.getElementById("checker1").classList.add('pill_active');
+    }
+};
+function intlActivation() {
+    if ( document.getElementById("checker1").classList.contains('pill_active') ) {
+        document.getElementById("checker1").classList.remove('pill_active'),
+        document.getElementById("checker2").classList.add('pill_active');
+    }
+};

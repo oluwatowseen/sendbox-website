@@ -4,6 +4,9 @@
 .features h1 {
 	font-size: 54px;
 }
+.feature_section h4 {
+	font-weight: bold;
+}
 .features_container {
 	border-top: 2px solid #000;
 	margin-top: 20px;
@@ -14,11 +17,11 @@
     padding-bottom: 100px;
 }
 .feature_section img {
-    outline: #e9eaeb solid 1px;
     width: 100%;
+    box-shadow: 0 0 8px 3px #fdf7f752 inset;
 }
 .feature_section {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 .row_margin {
 	margin-top: 50px;
@@ -33,4 +36,7 @@
 .muted_text a:hover {
 	color: #ed2f59;
 	text-decoration: none;
+}
+.feature_section hr {
+	display: none;
 }
