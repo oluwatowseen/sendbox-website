@@ -1,3 +1,7 @@
+
+
+/*FEATURES PAGE*/
+
 .features {
 	margin-top: 70px;
 }
@@ -18,24 +22,10 @@
 }
 .feature_section img {
     width: 100%;
-    box-shadow: 0 0 8px 3px #fdf7f752 inset;
+    border: 2px solid #e2e2e224;
 }
 .feature_section {
     padding-bottom: 20px;
-}
-.row_margin {
-	margin-top: 50px;
-}
-.muted_text {
-	color: #6f7680 !important;
-}
-.muted_text a {
-	color: #6f7680;
-	text-decoration: underline;
-}
-.muted_text a:hover {
-	color: #ed2f59;
-	text-decoration: none;
 }
 .feature_section hr {
 	display: none;

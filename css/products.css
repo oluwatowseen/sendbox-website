@@ -1,5 +1,8 @@
 /*PRODUCTS STYLESHEET*/
-/*Commercial page*/
+
+
+
+/*SMALL & LARGE ENTERPRISE*/
 .products {
 	margin-top: 70px;
 }
@@ -20,67 +23,12 @@
 	margin-top: 20px;
 	padding-top: 10px;
 }
-.product_main_container {
-    border: 1px solid #e9eaeb;
-    padding: 50px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-.muted_text {
-	color: #6f7680 !important;
-}
-.muted_text a {
-	color: #6f7680;
-	text-decoration: underline;
-}
-.muted_text a:hover {
-	color: #ed2f59;
-	text-decoration: none;
-}
 .products .h3 {
     line-height: 1.45;
-}
-/*Small Business*/
-.complete {
-    padding-top: 30px;
-    padding-bottom: 100px;
-}
-.complete_container {
-    border: 1px solid #e9eaeb;
-    padding: 50px;
-    margin-top: 25px;
-    margin-bottom: 25px;
 }
 .featureImages {
     width: 70px;
     margin-bottom: -5px;
-}
-.cost_price_text {
-    font-size: 11px;
-    color: #6f7680;
-}
-.dotted_under {
-    border-bottom: 1px dotted #6f7680;
-}
-.unstyled_list {
-    padding-left: 0px;
-    list-style: none;
-}
-ul.listed li {
-    margin-left: 25px;
-    margin-bottom: 13px;
-    font-size: 15px;
-    letter-spacing: 0.05em;
-    line-height: 1.7;
-}
-ul.listed li:before {
-    content: url(../images/page-formation.svg);
-    display: inline-block;
-    height: 19px;
-    margin-left: -27px;
-    margin-right: 16px;
-    position: relative;
-    top: 3px;
 }
 .safe h4 {
     font-size: 19px;
@@ -88,54 +36,6 @@ ul.listed li:before {
     margin-bottom: 30px;
     line-height: 1.3;
 }
-/*FUNDRAISING*/
-.fundraising_image {
-	width: 45px;
-}
-.unparalleled_image_height {
-	height: 81px;
-}
-.subscription_container {
-    border-right: 1px solid #e9eaeb;
-    border-left: 1px solid #e9eaeb;
-    border-bottom: 1px solid #e9eaeb;
-    padding: 50px;
-    margin-bottom: 30px; 
-}
-.subscription_padding {
-    padding: 27px !important;
-}
-.less_subscription_padding {
-    padding: 13px 27px !important;
-}
-.subscription_container h4:before {
-    content: url(../images/page-formation.svg);
-    display: inline-block;
-    height: 19px;
-    margin-right: 16px;
-    position: relative;
-    top: 3px;
-}
-/*HIRING*/
-.header4 {
-	font-size: 18px;
-}
-.subscription_header {
-    border: 1px solid #e9eaeb;
-    padding: 13px 60px;
-}
-.subscription_pricing {
-    border-right: 1px solid #e9eaeb;
-    padding-bottom: 27px;
-    padding-top: 27px;
-}
-.no_border {
-    border: 0 !important;
-}
-.border-bottom_none {
-    border-bottom: 0 !important;
-}
-
 
 
 
@@ -160,24 +60,10 @@ ul.listed li:before {
 }
 .feature_section img {
     width: 100%;
-    box-shadow: 0 0 8px 3px #fdf7f752 inset;
+    border: 2px solid #e2e2e224;
 }
 .feature_section {
     padding-bottom: 20px;
-}
-.row_margin {
-    margin-top: 50px;
-}
-.muted_text {
-    color: #6f7680 !important;
-}
-.muted_text a {
-    color: #6f7680;
-    text-decoration: underline;
-}
-.muted_text a:hover {
-    color: #ed2f59;
-    text-decoration: none;
 }
 .feature_section hr {
     display: none;

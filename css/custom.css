@@ -4,8 +4,8 @@ html {
 body {
   /*font-family: 'Karla', sans-serif;*/
   font-family: 'Hind', sans-serif;
-  color: #333;
-  padding-top: 65px;
+  color: #000;
+  padding-top: 61px;
   font-size: 15px;
 }
 h1,h2,h3,h4,h5,h6 {
@@ -24,7 +24,9 @@ p,a,li,button {
     width: 100%
 }*/
 /*header*/
-
+.sendbox_nav .navbar-collapse {
+    max-height: 550px;
+}
 .sendbox_nav {
 	background-color: #fff;
 	color: #ed2f59;
@@ -32,7 +34,6 @@ p,a,li,button {
 	height: 60px;
 	padding-top: 5px;
     padding-bottom: 5px;
-    /*border-color: #ed2f5947;*/
 }
 /*brand logo*/
 .sendbox_brand {
@@ -41,7 +42,7 @@ p,a,li,button {
 .sendbox_brand img {
 	width: 100%;
 	margin-top: -7px;
-    margin-left: -35px;
+    margin-left: -50px;
 }
 @media (max-width: 768px){
     .sendbox_brand img {
@@ -287,31 +288,6 @@ p,a,li,button {
     text-decoration: none;
 }
 
-/*client testimony*/
-.quote img {
-    height: 54px;
-    margin-right: 15px;
-}
-.quote {
-    border: 1px solid transparent;
-    box-shadow: -1px 2px 10px #c6c9cc;
-    margin-bottom: 27px;
-    padding: 40px 73px;
-}
-@media (max-width: 768px){
-    .quote {
-        padding: 30px 60px;
-    }
-}
-.quote_comment {
-    padding-left: 35px;
-    line-height: 1.6;
-}
-@media (max-width: 768px){
-    .quote_comment {
-        padding-left: 0px;
-    }
-}
 /*TRACKING & REPORTS*/
 .tracking_reports img {
     height: 50px;
@@ -323,72 +299,6 @@ p,a,li,button {
     }
 }
 
-/*gift section*/
-.gift {
-    border: 1px solid #000;
-    padding: 30px 60px;
-}
-.gift img {
-    width: 100%;
-}
-.gifted {
-    padding-top: 30px;
-}
-.gift ul {
-    list-style: none;
-    padding-left: 1px;
-    font-size: 12px;
-    color: #6f7680;
-}
-.start_reading {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-.start_reading a {
-    color: #fff;
-    padding: 12px 15px;
-    background-color: #ed2f59;
-    font-size: 15px;
-}
-.start_reading a:hover {
-    color: #fff;
-    text-decoration: none;
-    background-color: #c72549;
-
-}
-
-/*partner section*/
-.partners img {
-    height: 40.5px;
-    margin-top: 70px;
-}
-
-
-/*contact us section*/
-.contact_form {
-    margin: 30px 0;
-    height: 50px;
-    border-radius: 0;
-}
-.contact_us .checkbox {
-    font-size: 15px;
-}
-.create_account_button {
-    padding: 14px 20px;
-    border-radius: 0px;
-    background-color: #ed2f59;
-    border: none;
-    margin: 30px 0;
-    color: #fff;
-}
-.create_account_button:hover,
-.create_account_button:active,
-.create_account_button:focus,
-.create_account_button:visited {
-    background-color: #c72549;
-    text-decoration: none;
-    color: #fff;
-}
 /*footer*/
 
 
@@ -414,6 +324,7 @@ p,a,li,button {
     font-size: 12px;
     color: #6f7680;
     text-align: right;
+    padding-right: 0px;
 }
 .footer_text {
     font-size: 13px;
@@ -433,44 +344,7 @@ p,a,li,button {
     color: #ed2f59;
     text-decoration: none;
 }
-/*SIGN IN & SIGN UP PAGE*/
 
-.sign_in_logo {
-    width: 240px;
-}
-.sign_in_logo img {
-    width: 100%;
-    margin-left: -44px;
-}
-.sign_in_button {
-    padding: 15px 35px;
-    border-radius: 0px;
-    background-color: #ed2f59;
-    color: #fff;
-    border: none;
-    margin-bottom: 15px;
-    width: 100%;
-    font-size: 15px;
-}
-.sign_in_button:hover,
-.sign_in_button:active,
-.sign_in_button:focus,
-.sign_in_button:visited {
-    background-color: #c72549;
-    text-decoration: none;
-    color: #fff;
-}
-.need_account {
-    color: #ed2f59;
-    font-size: 13px;
-    text-decoration: underline;
-    text-decoration-color: #ed2f5947;
-}
-.need_account:hover {
-    color: #ed2f59;
-    text-decoration: underline;
-    text-decoration-color: #ed2f59;
-}
 
 
 
